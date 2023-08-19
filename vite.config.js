@@ -5,5 +5,5 @@ import viteSvgr from "vite-plugin-svgr";
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react(), viteSvgr()],
-  base: "/results_summary_component/",
+  base: "/",
 });
